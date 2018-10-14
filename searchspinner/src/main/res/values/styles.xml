@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Search_spinner__top_anim">
+        <item name="android:windowEnterAnimation">@anim/popup_search_spinner_top_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_search_spinner_top_out</item>
+    </style>
+    <style name="Search_spinner__bottom_anim">
+        <item name="android:windowEnterAnimation">@anim/popup_search_spinner_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_search_spinner_bottom_out</item>
+    </style>
+</resources>

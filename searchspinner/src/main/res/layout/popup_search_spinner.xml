@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+    <EditText
+        android:id="@+id/popup_search_spinner_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@drawable/search_bg"
+        android:gravity="center_vertical"
+        android:paddingEnd="1dp"
+        android:paddingStart="1dp"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/popup_search_spinner_tv"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:visibility="gone"
+        android:text="@string/no_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/popup_search_spinner_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popup_search_spinner_et"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:scrollbars="none"/>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchSpinner">
+        <attr name="arrow" format="reference|color"/>
+        <attr name="arrowColor" format="color"/>
+        <attr name="changeColor" format="boolean"/>
+        <attr name="hideArrow" format="boolean"/>
+        <attr name="tipText" format="string"/>
+        <attr name="tipTextColor" format="color"/>
+        <attr name="tipTextHeight" format="dimension"/>
+        <attr name="tipTextHeightPercent" format="string"/>
+        <attr name="adapterSelectColor" format="color"/>
+        <attr name="verticalPadding" format="dimension"/>
+        <attr name="isIgnoreCase" format="boolean"/>
+        <attr name="adapterTextColor" format="color"/>
+        <attr name="adapterItemHeight" format="dimension"/>
+        <attr name="adapterItemHeightPercent" format="string"/>
+        <attr name="searchViewHeight" format="dimension"/>
+        <attr name="searchViewHeightPercent" format="string"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">searchSpinner</string>
+    <string name="no_search_result">暂无搜索结果</string>
+</resources>
